@@ -1,5 +1,5 @@
 import { Component, input } from "@angular/core";
-import { JobPost } from "../models/job-post.model";
+import { JobPost } from "../../../shared/models/job-post.model";
 import { MatCardModule } from "@angular/material/card";
 import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from "@angular/material/icon";

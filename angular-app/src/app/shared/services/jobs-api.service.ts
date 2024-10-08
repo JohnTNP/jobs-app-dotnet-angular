@@ -1,8 +1,8 @@
 import { inject, Injectable } from "@angular/core";
-import { environment } from "../../../../environments/environment";
 import { HttpClient } from "@angular/common/http";
-import { CreateJobPostRequestDTO, GetJobsResponseDTO } from "../models/dtos/jobs.dto";
-import { GeneralResponseDTO } from "../../../shared/models/dtos/general-response.dto";
+import { CreateJobPostRequestDTO, GetJobsResponseDTO } from "../models/dtos/jobs.dto"
+import { GeneralResponseDTO } from "../models/dtos/general-response.dto";
+import { environment } from "../../../environments/environment";
 
 @Injectable({
   providedIn: 'any'

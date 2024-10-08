@@ -7,5 +7,5 @@ export interface GetJobsResponseDTO {
 export interface CreateJobPostRequestDTO {
     title: string;
     description: string;
-    location: string;
+    location: string | null;
 }
